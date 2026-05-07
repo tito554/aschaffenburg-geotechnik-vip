@@ -1,0 +1,62 @@
+# Aschaffenburg
+
+> Geotechnical engineering company in Germany, providing professional services in soil mechanics, foundation engineering and site investigation.
+
+## Services
+- [Aktive Passive Verankerungsbemessung](https://aschaffenburg.geotechnik.vip/aktive-passive-verankerungsbemessung/)
+- [Analyse Seismischen Verstarkung](https://aschaffenburg.geotechnik.vip/analyse-seismischen-verstarkung/)
+- [Analyse Ungesattigter Boden](https://aschaffenburg.geotechnik.vip/analyse-ungesattigter-boden/)
+- [Atterberg Grenzen](https://aschaffenburg.geotechnik.vip/atterberg-grenzen/)
+- [Bemessung Dynamischen Verdichtung](https://aschaffenburg.geotechnik.vip/bemessung-dynamischen-verdichtung/)
+- [Bemessung Flexibler Fahrbahnen](https://aschaffenburg.geotechnik.vip/bemessung-flexibler-fahrbahnen/)
+- [Bemessung Rutteldruckverdichtung](https://aschaffenburg.geotechnik.vip/bemessung-rutteldruckverdichtung/)
+- [Bemessung Schottersaulen](https://aschaffenburg.geotechnik.vip/bemessung-schottersaulen/)
+- [Bemessung Starrer Fahrbahnen](https://aschaffenburg.geotechnik.vip/bemessung-starrer-fahrbahnen/)
+- [Bemessung Vertikalen Drans](https://aschaffenburg.geotechnik.vip/bemessung-vertikalen-drans/)
+- [Bewertung Setzungsempfindlichen Boden](https://aschaffenburg.geotechnik.vip/bewertung-setzungsempfindlichen-boden/)
+- [Bodenerosionsanalyse](https://aschaffenburg.geotechnik.vip/bodenerosionsanalyse/)
+- [Bodenklassifikation](https://aschaffenburg.geotechnik.vip/bodenklassifikation/)
+- [Bodenmechanische Untersuchung](https://aschaffenburg.geotechnik.vip/bodenmechanische-untersuchung/)
+- [Bodenverbesserung](https://aschaffenburg.geotechnik.vip/bodenverbesserung/)
+- [Boschungsbruchanalyse](https://aschaffenburg.geotechnik.vip/boschungsbruchanalyse/)
+- [Boschungsstabilitatsanalyse](https://aschaffenburg.geotechnik.vip/boschungsstabilitatsanalyse/)
+- [Cbr Studie Fur Straßenentwurf](https://aschaffenburg.geotechnik.vip/cbr-studie-fur-straßenentwurf/)
+- [Charakterisierung Residualboden](https://aschaffenburg.geotechnik.vip/charakterisierung-residualboden/)
+- [Direkter Scherversuch](https://aschaffenburg.geotechnik.vip/direkter-scherversuch/)
+- [Elektrische Widerstandsmessung Ves](https://aschaffenburg.geotechnik.vip/elektrische-widerstandsmessung-ves/)
+- [Erdbebenisolationsbemessung](https://aschaffenburg.geotechnik.vip/erdbebenisolationsbemessung/)
+- [Erkundung](https://aschaffenburg.geotechnik.vip/erkundung/)
+- [Fahrbahnbau Untergrundbemessung](https://aschaffenburg.geotechnik.vip/fahrbahnbau-untergrundbemessung/)
+- [Felddurchlassigkeitsversuch](https://aschaffenburg.geotechnik.vip/felddurchlassigkeitsversuch/)
+- [Flachdilatometer Versuch](https://aschaffenburg.geotechnik.vip/flachdilatometer-versuch/)
+- [Flachgrundungsbemessung](https://aschaffenburg.geotechnik.vip/flachgrundungsbemessung/)
+- [Fundamente](https://aschaffenburg.geotechnik.vip/fundamente/)
+- [Geogitter Spezifikation](https://aschaffenburg.geotechnik.vip/geogitter-spezifikation/)
+- [Geophysik](https://aschaffenburg.geotechnik.vip/geophysik/)
+- [Geotechnische Analyse Fur Tunnel](https://aschaffenburg.geotechnik.vip/geotechnische-analyse-fur-tunnel/)
+- [Geotechnische Baugrubenuberwachung](https://aschaffenburg.geotechnik.vip/geotechnische-baugrubenuberwachung/)
+- [Geotechnische Bemessung Tiefer Baugruben](https://aschaffenburg.geotechnik.vip/geotechnische-bemessung-tiefer-baugruben/)
+- [Geotechnische Instrumentierung](https://aschaffenburg.geotechnik.vip/geotechnische-instrumentierung/)
+- [Geotechnische Straßenentwasserung](https://aschaffenburg.geotechnik.vip/geotechnische-straßenentwasserung/)
+- [Geotextil Spezifikation](https://aschaffenburg.geotechnik.vip/geotextil-spezifikation/)
+- [Grundungen Schuttungen](https://aschaffenburg.geotechnik.vip/grundungen-schuttungen/)
+- [Hange Wande](https://aschaffenburg.geotechnik.vip/hange-wande/)
+- [In Situ Prufungen](https://aschaffenburg.geotechnik.vip/in-situ-prufungen/)
+- [Injektionsbemessung](https://aschaffenburg.geotechnik.vip/injektionsbemessung/)
+- [Jet Grouting Bemessung](https://aschaffenburg.geotechnik.vip/jet-grouting-bemessung/)
+- [Labor](https://aschaffenburg.geotechnik.vip/labor/)
+- [Labor Durchlassigkeitsversuch](https://aschaffenburg.geotechnik.vip/labor-durchlassigkeitsversuch/)
+- [Mechanisch Stabilisierter Erdkorper](https://aschaffenburg.geotechnik.vip/mechanisch-stabilisierter-erdkorper/)
+- [Menard Druckversuch](https://aschaffenburg.geotechnik.vip/menard-druckversuch/)
+- [Mikropfahlbemessung](https://aschaffenburg.geotechnik.vip/mikropfahlbemessung/)
+- [Normal Modifiziert](https://aschaffenburg.geotechnik.vip/normal-modifiziert/)
+- [Odometer Konsolidationsversuch](https://aschaffenburg.geotechnik.vip/odometer-konsolidationsversuch/)
+- [Pfahlanalyse Mantelreibung Vs Spitzendruck](https://aschaffenburg.geotechnik.vip/pfahlanalyse-mantelreibung-vs-spitzendruck/)
+- [Pfahlgrundungsbemessung](https://aschaffenburg.geotechnik.vip/pfahlgrundungsbemessung/)
+
+## Contact
+- Website: https://aschaffenburg.geotechnik.vip/
+
+## About
+This page provides information about geotechnical engineering services available in Germany.
+The company complies with local and international standards including ASTM, ISO and country-specific norms.
