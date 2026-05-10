@@ -23,6 +23,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 
 table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
 
@@ -41,7 +46,7 @@ footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; ba
 .sidebar .sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
 
 .cat-row{display:flex;align-items:stretch;justify-content:space-between;background:transparent;transition:background .15s;border-bottom:1px solid rgba(255,255,255,.05)}
-    .container { padding: 1rem; }
+    
 .cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
 .cta .contacto-line a { color: white; text-decoration: underline; }
 
@@ -69,7 +74,7 @@ footer a { color: rgba(255,255,255,0.85); }
 }
 
 .cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
-    .content-area { flex-direction: column; }
+    
 .sidebar .sub a {
     display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
     font-size: .78rem; transition: all .15s; text-decoration: none;
@@ -102,7 +107,7 @@ th { background: var(--dark); color: white; font-weight: 600; font-family: var(-
 .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
 .sidebar .cat.open + .sub { display: flex; }
 main p { margin-bottom: 1rem; color: #334155; }
-    .header-top { flex-direction: column; text-align: center; }
+    
 :root {
     --primary: #171717;
     --accent: #404040;
@@ -130,10 +135,12 @@ details[open] summary::before { content: '− '; }
 .cat-arrow{display:inline-block;transition:transform .2s ease;font-size:.85rem}
 a { color: var(--primary); text-decoration: none; }
 .cat-sub-wrap a:hover{opacity:1;background:rgba(255,255,255,.05)}
-    main { padding: 1.5rem; }
+    
 .servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
 .cat-toggle{width:48px;background:transparent;border:none;border-left:1px solid rgba(255,255,255,.08);color:inherit;cursor:pointer;font-size:1.05rem;padding:0;display:flex;align-items:center;justify-content:center;transition:background .15s}
-.sidebar .cat.open .arrow { transform: rotate(90deg); }</style>
+.sidebar .cat.open .arrow { transform: rotate(90deg); }
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -145,7 +152,9 @@ a { color: var(--primary); text-decoration: none; }
   .navbar .nav{display:flex!important;flex-wrap:nowrap!important;gap:1.2rem!important;align-items:center!important;overflow:visible!important;justify-content:space-between!important}
   .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
   body{background:#FAFAFA!important;color:#18181B!important}
-img{max-width:100%!important;height:auto!important}</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://aschaffenburg.geotechnik.vip/geophysik/","inLanguage":"de","description":"In Aschaffenburg deckt die Geophysik die zerstörungsfreie Erkundung des flachgründigen Untergrunds ab, geprägt von den sandig-kiesigen Mainablagerungen und","isPartOf":{"@type":"WebSite","@id":"https://aschaffenburg.geotechnik.vip/#website-32db","url":"https://aschaffenburg.geotechnik.vip"},"name":"Geophysik in Aschaffenburg – Germany","url":"https://aschaffenburg.geotechnik.vip/geophysik/","@type":"WebPage"},{"itemListElement":[{"item":"https://aschaffenburg.geotechnik.vip/","name":"Home","position":1,"@type":"ListItem"},{"item":"https://aschaffenburg.geotechnik.vip/geophysik/","name":"Geophysik","position":2,"@type":"ListItem"}],"@type":"BreadcrumbList"},{"name":"Geophysik","itemListElement":[{"name":"Elektrische Widerstandsmessung / VES (Vertikale Elektrische Sondierung)","position":1,"@type":"ListItem","url":"https://aschaffenburg.geotechnik.vip/elektrische-widerstandsmessung-ves/"}],"@type":"ItemList"}]}</script></head>
+img{max-width:100%!important;height:auto!important}
+}
+</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://aschaffenburg.geotechnik.vip/geophysik/","inLanguage":"de","description":"In Aschaffenburg deckt die Geophysik die zerstörungsfreie Erkundung des flachgründigen Untergrunds ab, geprägt von den sandig-kiesigen Mainablagerungen und","isPartOf":{"@type":"WebSite","@id":"https://aschaffenburg.geotechnik.vip/#website-32db","url":"https://aschaffenburg.geotechnik.vip"},"name":"Geophysik in Aschaffenburg – Germany","url":"https://aschaffenburg.geotechnik.vip/geophysik/","@type":"WebPage"},{"itemListElement":[{"item":"https://aschaffenburg.geotechnik.vip/","name":"Home","position":1,"@type":"ListItem"},{"item":"https://aschaffenburg.geotechnik.vip/geophysik/","name":"Geophysik","position":2,"@type":"ListItem"}],"@type":"BreadcrumbList"},{"name":"Geophysik","itemListElement":[{"name":"Elektrische Widerstandsmessung / VES (Vertikale Elektrische Sondierung)","position":1,"@type":"ListItem","url":"https://aschaffenburg.geotechnik.vip/elektrische-widerstandsmessung-ves/"}],"@type":"ItemList"}]}</script></head>
 <body>
 
 <header>
@@ -213,7 +222,11 @@ img{max-width:100%!important;height:auto!important}</style><script type="applica
             </section>
 
             
-<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Verfügbare Leistungen</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../elektrische-widerstandsmessung-ves/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Elektrische Widerstandsmessung / VES (Vertikale Elektrische Sondierung)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
+<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto">
+<img src="/img/respuesta-sismica-1.webp" alt="Geophysik in Aschaffenburg" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+<p>Die geophysikalische Erkundung in Aschaffenburg und dem bayerischen Untermain umfasst zerstörungsfreie Verfahren zur Baugrunderkundung, die eine präzise Abbildung von Schichtgrenzen, Hohlräumen und Grundwasserleitern ermöglichen. Das regionale geologische Bild wird von den triassischen Abfolgen des Buntsandsteins und Muschelkalks geprägt, die lokal von quartären Terrassenschottern und Lösslehmdecken überlagert werden. Diese heterogenen Untergrundverhältnisse erfordern eine sorgfältige Kombination von Georadar, Seismik und Geoelektrik, um die Tragfähigkeit des Baugrunds sicher zu bewerten. Grundlage bilden dabei die Vorgaben der DIN EN 1997-2 sowie die ergänzenden Regelungen der DIN 4020, die den Umfang und die Interpretation geophysikalischer Messungen für geotechnische Untersuchungen in Deutschland definieren. Die enge Verzahnung mit direkten Aufschlussmethoden wie der <a href="/sondierbohrung/">Schürfgrube (Sondierbohrung)</a> und <a href="/in-situ-prufungen/">In-Situ-Prüfungen</a> ist normativ gefordert und stellt die Validierung der indirekten Messergebnisse sicher.</p>
+<p>Die methodische Umsetzung orientiert sich an den etablierten Standards der Deutschen Geophysikalischen Gesellschaft und den Merkblättern der Forschungsgesellschaft für Straßen- und Verkehrswesen. Reflexions- und Refraktionsseismik kommen bei der Erkundung von Felsoberkanten und Störungszonen im anstehenden Buntsandstein zum Einsatz, während Multielektroden-Geoelektrik und elektromagnetische Induktion bevorzugt zur Detektion von grundwasserführenden Schotterrinnen und Tonlinsen in den quartären Deckschichten eingesetzt werden. Für die integrale Bewertung der Untergrundeigenschaften wird die Geophysik mit punktuellen <a href="/standard-penetration-test/">SPT (Standard Penetration Test)</a> Sondierungen und dem <a href="/flachdilatometer-versuch/">Flachdilatometer-Versuch (DMT)</a> kalibriert, um abgeleitete dynamische Module in statische Steifigkeitsparameter zu überführen. Diese Kombination aus Flächenmessung und punktueller mechanischer Prüfung entspricht dem in DIN 4094-4 verankerten Erkundungskonzept und liefert die erforderliche Datendichte für numerische FE-Berechnungen.</p>
+<p>Typische Projekte in Aschaffenburg reichen von der Gründungsberatung für innerstädtische Neubauten auf heterogen verfüllten Parzellen über die Trassenuntersuchung für Kanal- und Versorgungsleitungen bis zur Standsicherheitsbewertung von bestehenden Stützwänden entlang der Mainhänge. Häufig geht es um die Detektion alter Fundamentreste und Bombenblindgänger im Zuge von Rückbau- und Revitalisierungsvorhaben auf ehemaligen Industriearealen. Bei der Planung von Versickerungsanlagen im Bereich der geringdurchlässigen Verwitterungsdecken des Muschelkalks ist die Kombination von Geoelektrik und <a href="/felddurchlassigkeitsversuch/">Felddurchlässigkeitsversuchen (Lefranc/Lugeon)</a></p></div></section></main>
     </div>
 </div>
 

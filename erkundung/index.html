@@ -23,6 +23,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 
 table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
 
@@ -41,7 +46,7 @@ footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; ba
 .sidebar .sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
 
 .cat-row{display:flex;align-items:stretch;justify-content:space-between;background:transparent;transition:background .15s;border-bottom:1px solid rgba(255,255,255,.05)}
-    .container { padding: 1rem; }
+    
 .cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
 .cta .contacto-line a { color: white; text-decoration: underline; }
 
@@ -69,7 +74,7 @@ footer a { color: rgba(255,255,255,0.85); }
 }
 
 .cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
-    .content-area { flex-direction: column; }
+    
 .sidebar .sub a {
     display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
     font-size: .78rem; transition: all .15s; text-decoration: none;
@@ -102,7 +107,7 @@ th { background: var(--dark); color: white; font-weight: 600; font-family: var(-
 .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
 .sidebar .cat.open + .sub { display: flex; }
 main p { margin-bottom: 1rem; color: #334155; }
-    .header-top { flex-direction: column; text-align: center; }
+    
 :root {
     --primary: #171717;
     --accent: #404040;
@@ -130,10 +135,12 @@ details[open] summary::before { content: '− '; }
 .cat-arrow{display:inline-block;transition:transform .2s ease;font-size:.85rem}
 a { color: var(--primary); text-decoration: none; }
 .cat-sub-wrap a:hover{opacity:1;background:rgba(255,255,255,.05)}
-    main { padding: 1.5rem; }
+    
 .servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
 .cat-toggle{width:48px;background:transparent;border:none;border-left:1px solid rgba(255,255,255,.08);color:inherit;cursor:pointer;font-size:1.05rem;padding:0;display:flex;align-items:center;justify-content:center;transition:background .15s}
-.sidebar .cat.open .arrow { transform: rotate(90deg); }</style>
+.sidebar .cat.open .arrow { transform: rotate(90deg); }
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -145,7 +152,9 @@ a { color: var(--primary); text-decoration: none; }
   .navbar .nav{display:flex!important;flex-wrap:nowrap!important;gap:1.2rem!important;align-items:center!important;overflow:visible!important;justify-content:space-between!important}
   .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
   body{background:#FAFAFA!important;color:#18181B!important}
-img{max-width:100%!important;height:auto!important}</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://aschaffenburg.geotechnik.vip/erkundung/","inLanguage":"de","description":"In Aschaffenburg umfasst die Erkundung alle direkten Aufschlussverfahren zur Beurteilung der örtlichen Baugrundverhältnisse. Die heterogene Geologie des Ma","isPartOf":{"@type":"WebSite","@id":"https://aschaffenburg.geotechnik.vip/#website-32db","url":"https://aschaffenburg.geotechnik.vip"},"name":"Erkundung in Aschaffenburg – Germany","url":"https://aschaffenburg.geotechnik.vip/erkundung/","@type":"WebPage"},{"itemListElement":[{"item":"https://aschaffenburg.geotechnik.vip/","name":"Home","position":1,"@type":"ListItem"},{"item":"https://aschaffenburg.geotechnik.vip/erkundung/","name":"Erkundung","position":2,"@type":"ListItem"}],"@type":"BreadcrumbList"},{"name":"Erkundung","itemListElement":[{"name":"Schürfgrube (Sondierbohrung)","position":1,"@type":"ListItem","url":"https://aschaffenburg.geotechnik.vip/sondierbohrung/"},{"name":"SPT (Standard Penetration Test)","position":2,"@type":"ListItem","url":"https://aschaffenburg.geotechnik.vip/standard-penetration-test/"}],"@type":"ItemList"}]}</script></head>
+img{max-width:100%!important;height:auto!important}
+}
+</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://aschaffenburg.geotechnik.vip/erkundung/","inLanguage":"de","description":"In Aschaffenburg umfasst die Erkundung alle direkten Aufschlussverfahren zur Beurteilung der örtlichen Baugrundverhältnisse. Die heterogene Geologie des Ma","isPartOf":{"@type":"WebSite","@id":"https://aschaffenburg.geotechnik.vip/#website-32db","url":"https://aschaffenburg.geotechnik.vip"},"name":"Erkundung in Aschaffenburg – Germany","url":"https://aschaffenburg.geotechnik.vip/erkundung/","@type":"WebPage"},{"itemListElement":[{"item":"https://aschaffenburg.geotechnik.vip/","name":"Home","position":1,"@type":"ListItem"},{"item":"https://aschaffenburg.geotechnik.vip/erkundung/","name":"Erkundung","position":2,"@type":"ListItem"}],"@type":"BreadcrumbList"},{"name":"Erkundung","itemListElement":[{"name":"Schürfgrube (Sondierbohrung)","position":1,"@type":"ListItem","url":"https://aschaffenburg.geotechnik.vip/sondierbohrung/"},{"name":"SPT (Standard Penetration Test)","position":2,"@type":"ListItem","url":"https://aschaffenburg.geotechnik.vip/standard-penetration-test/"}],"@type":"ItemList"}]}</script></head>
 <body>
 
 <header>
@@ -230,7 +239,9 @@ img{max-width:100%!important;height:auto!important}</style><script type="applica
                 </script>
             </section>
         
-<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Verfügbare Leistungen</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../sondierbohrung/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Schürfgrube (Sondierbohrung)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../standard-penetration-test/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">SPT (Standard Penetration Test)</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
+<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><p>Eine fundierte geotechnische <a href="/erkundung/">Erkundung</a> bildet die unverzichtbare Basis für jedes Bauvorhaben in Aschaffenburg. Das Untersuchungsprogramm deckt die vollständige Charakterisierung des Baugrunds ab: Schichtenfolge, Lagerungsdichte, Konsistenz, Tragfähigkeit, Grundwasserverhältnisse und Durchlässigkeit. Die Geologie der Region wird vom variszischen Grundgebirge des Spessarts sowie von den quartären und tertiären Sedimenten des Mainbeckens geprägt. Im Stadtgebiet stehen häufig verwitterte Sand- und Tonsteine des Buntsandsteins sowie pleistozäne Terrassensande und -kiese an, die lokal von Auelehmen überlagert werden. Sämtliche Feldarbeiten erfolgen unter Beachtung der DIN EN 1997-2 (Eurocode 7) und der ergänzenden DIN 4020, die den geotechnischen Bericht als Kernstück einer regelkonformen Erkundung definiert.</p>
+<p>Die Methodik stützt sich auf ein abgestimmtes Portfolio aus direkten und indirekten Aufschlussverfahren, die den spezifischen Untergrundverhältnissen Aschaffenburgs Rechnung tragen. Zur Erkundung von Wechsellagerungen aus rolligen und bindigen Böden hat sich die <a href="/sondierbohrung/">Schürfgrube (Sondierbohrung)</a> als vielseitiges Verfahren etabliert, das gestörte und ungestörte Proben für das bodenmechanische Labor liefert. Die Ermittlung der Lagerungsdichte in den sandigen Mainterrassen erfolgt standardmäßig mittels <a href="/standard-penetration-test/">Standard Penetration Test (SPT)</a> nach DIN EN ISO 22476-3, dessen Schlagzahlen eine direkte Korrelation mit Setzungsmoduln und Reibungswinkeln erlauben. In bindigen Schichten kommen ergänzend <a href="/in-situ-prufungen/">In-Situ-Prüfungen</a> wie die Flügelscherversuche nach DIN 4094-4 zum Einsatz, um die undränierte Scherfestigkeit zuverlässig zu bestimmen. Für die versickerungstechnische Bemessung von Regenwasserversickerungsanlagen, die in Aschaffenburg aufgrund der hohen Grundwasserneubildungsrate häufig gefordert werden, wird der <a href="/felddurchlassigkeitsversuch/">Felddurchlässigkeitsversuch (Lefranc/Lugeon)</a> im Bohrloch ausgeführt und gemäß DWA-A 138 ausgewertet.</p>
+<p>Das anspruchsvolle Baugrundverhalten in Aschaffenburg erfordert bei zahlreichen Projekten eine präzise Ermittlung von Steifigkeits- und Verformungsparametern. Für die Optimierung von Flachgründungen und die Bemessung von Bodenplatten im Hoch- und Gewerbebau, etwa in den Entwicklungsgebieten entlang der Würzburger Straße, liefert der <a href="/flachdilatometer-versuch/">Flachdilatometer-Versuch (DMT)</a> nach DIN EN ISO 22476-11 horizontale Spannungszustände und Kompressionsmoduln. Bei tiefen Baugruben und Infrastrukturprojekten, wie der geplanten Erweiterung des Klinikums Asch</p></div></section></main>
     </div>
 </div>
 

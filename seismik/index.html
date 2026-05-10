@@ -23,6 +23,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 
 table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
 
@@ -41,7 +46,7 @@ footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; ba
 .sidebar .sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
 
 .cat-row{display:flex;align-items:stretch;justify-content:space-between;background:transparent;transition:background .15s;border-bottom:1px solid rgba(255,255,255,.05)}
-    .container { padding: 1rem; }
+    
 .cat-toggle[aria-expanded="true"] .cat-arrow{transform:rotate(180deg)}
 .cta .contacto-line a { color: white; text-decoration: underline; }
 
@@ -69,7 +74,7 @@ footer a { color: rgba(255,255,255,0.85); }
 }
 
 .cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
-    .content-area { flex-direction: column; }
+    
 .sidebar .sub a {
     display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
     font-size: .78rem; transition: all .15s; text-decoration: none;
@@ -102,7 +107,7 @@ th { background: var(--dark); color: white; font-weight: 600; font-family: var(-
 .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
 .sidebar .cat.open + .sub { display: flex; }
 main p { margin-bottom: 1rem; color: #334155; }
-    .header-top { flex-direction: column; text-align: center; }
+    
 :root {
     --primary: #171717;
     --accent: #404040;
@@ -130,10 +135,12 @@ details[open] summary::before { content: '− '; }
 .cat-arrow{display:inline-block;transition:transform .2s ease;font-size:.85rem}
 a { color: var(--primary); text-decoration: none; }
 .cat-sub-wrap a:hover{opacity:1;background:rgba(255,255,255,.05)}
-    main { padding: 1.5rem; }
+    
 .servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
 .cat-toggle{width:48px;background:transparent;border:none;border-left:1px solid rgba(255,255,255,.08);color:inherit;cursor:pointer;font-size:1.05rem;padding:0;display:flex;align-items:center;justify-content:center;transition:background .15s}
-.sidebar .cat.open .arrow { transform: rotate(90deg); }</style>
+.sidebar .cat.open .arrow { transform: rotate(90deg); }
+
+</style>
 <style>
 @media(min-width:901px){
   .content-area{display:flex!important;gap:1.5rem!important;align-items:flex-start!important}
@@ -145,7 +152,9 @@ a { color: var(--primary); text-decoration: none; }
   .navbar .nav{display:flex!important;flex-wrap:nowrap!important;gap:1.2rem!important;align-items:center!important;overflow:visible!important;justify-content:space-between!important}
   .navbar{display:flex!important;align-items:center!important;justify-content:space-between!important}
   body{background:#FAFAFA!important;color:#18181B!important}
-img{max-width:100%!important;height:auto!important}</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://aschaffenburg.geotechnik.vip/seismik/","inLanguage":"de","description":"Die Seismik-Kategorie in Aschaffenburg umfasst die standortspezifische Bewertung seismischer Einwirkungen unter Berücksichtigung der regionalen Geologie de","isPartOf":{"@type":"WebSite","@id":"https://aschaffenburg.geotechnik.vip/#website-32db","url":"https://aschaffenburg.geotechnik.vip"},"name":"Seismik in Aschaffenburg – Germany","url":"https://aschaffenburg.geotechnik.vip/seismik/","@type":"WebPage"},{"itemListElement":[{"item":"https://aschaffenburg.geotechnik.vip/","name":"Home","position":1,"@type":"ListItem"},{"item":"https://aschaffenburg.geotechnik.vip/seismik/","name":"Seismik","position":2,"@type":"ListItem"}],"@type":"BreadcrumbList"},{"name":"Seismik","itemListElement":[{"name":"Analyse der seismischen Verstärkung","position":1,"@type":"ListItem","url":"https://aschaffenburg.geotechnik.vip/analyse-seismischen-verstarkung/"},{"name":"Erdbebenisolationsbemessung","position":2,"@type":"ListItem","url":"https://aschaffenburg.geotechnik.vip/erdbebenisolationsbemessung/"},{"name":"Standortantwortanalyse","position":3,"@type":"ListItem","url":"https://aschaffenburg.geotechnik.vip/standortantwortanalyse/"}],"@type":"ItemList"}]}</script></head>
+img{max-width:100%!important;height:auto!important}
+}
+</style><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@id":"https://aschaffenburg.geotechnik.vip/seismik/","inLanguage":"de","description":"Die Seismik-Kategorie in Aschaffenburg umfasst die standortspezifische Bewertung seismischer Einwirkungen unter Berücksichtigung der regionalen Geologie de","isPartOf":{"@type":"WebSite","@id":"https://aschaffenburg.geotechnik.vip/#website-32db","url":"https://aschaffenburg.geotechnik.vip"},"name":"Seismik in Aschaffenburg – Germany","url":"https://aschaffenburg.geotechnik.vip/seismik/","@type":"WebPage"},{"itemListElement":[{"item":"https://aschaffenburg.geotechnik.vip/","name":"Home","position":1,"@type":"ListItem"},{"item":"https://aschaffenburg.geotechnik.vip/seismik/","name":"Seismik","position":2,"@type":"ListItem"}],"@type":"BreadcrumbList"},{"name":"Seismik","itemListElement":[{"name":"Analyse der seismischen Verstärkung","position":1,"@type":"ListItem","url":"https://aschaffenburg.geotechnik.vip/analyse-seismischen-verstarkung/"},{"name":"Erdbebenisolationsbemessung","position":2,"@type":"ListItem","url":"https://aschaffenburg.geotechnik.vip/erdbebenisolationsbemessung/"},{"name":"Standortantwortanalyse","position":3,"@type":"ListItem","url":"https://aschaffenburg.geotechnik.vip/standortantwortanalyse/"}],"@type":"ItemList"}]}</script></head>
 <body>
 
 <header>
@@ -213,7 +222,14 @@ img{max-width:100%!important;height:auto!important}</style><script type="applica
             </section>
 
             
-<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Verfügbare Leistungen</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../analyse-seismischen-verstarkung/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Analyse der seismischen Verstärkung</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../erdbebenisolationsbemessung/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Erdbebenisolationsbemessung</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../standortantwortanalyse/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Standortantwortanalyse</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
+<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto">
+<img src="/img/respuesta-sismica-1.webp" alt="Seismik in Aschaffenburg" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+<p>Die Seismik in Aschaffenburg umfasst die ingenieurgeophysikalische Erkundung des oberflächennahen Untergrundes zur Beurteilung der Baugrunddynamik und der geologischen Schichtlagerung. Im Vordergrund stehen die Ermittlung von Scherwellengeschwindigkeiten, die Bestimmung von Baugrundklassen nach DIN EN 1998-1/NA sowie die mikroseismische Charakterisierung des lokal anstehenden Buntsandsteins und der quartären Talfüllungen des Mains. Unsere <a href="/erkundung/">geotechnische Erkundung</a> kombiniert seismische Verfahren mit direkten Aufschlüssen, um die normativen Anforderungen der DIN 4020 und des ergänzenden Baugrundgutachtens nach Erdbebenzonenkarte des Landes Hessen sicher zu erfüllen. Die Auswertung erfolgt stets unter Berücksichtigung der spezifischen Verwitterungsprofile und der tektonisch bedingten Klüftigkeit, die im Aschaffenburger Stadtgebiet maßgeblich die Scherwellenausbreitung beeinflussen.</p>
+<p>Die seismischen Messkampagnen werden gemäß den aktuellen deutschen Regelwerken konzipiert, insbesondere unter Anwendung der DIN 4094-5 für geophysikalische Aufschlussverfahren und der Empfehlungen des Arbeitskreises "Seismik" der DGGT. Wir setzen Multikanal-Analysen von Oberflächenwellen (MASW) und Refraktionstomographie ein, um dynamische Bodenkennwerte wie den dynamischen Schubmodul und die Poissonzahl abzuleiten. Die Kalibrierung der seismischen Profile erfolgt zwingend durch eine direkte <a href="/sondierbohrung/">Sondierbohrung</a> im Kern des Messrasters, die eine lithologische Ansprache und die Entnahme gestörter Proben für bodenmechanische Laborversuche ermöglicht. Zur Verdichtung der Datenbasis und zur Validierung der Wellengeschwindigkeiten wird oftmals der <a href="/standard-penetration-test/">Standard Penetration Test (SPT)</a> in den Bohrlochsohlen ausgeführt, dessen Schlagzahlen eine robuste Korrelation mit den seismisch ermittelten Steifigkeitsmoduln erlauben.</p>
+<p>Typische Einsatzfelder in Aschaffenburg sind die seismische Standortklassifizierung für Hochbauvorhaben in den Stadtteilen Damm und Leider, die Baugrunddynamik bei Erschütterungsgutachten entlang der Bahntrassen sowie die Erkundung von Setzungsmulden für geplante Regenrückhaltebecken. Bei Infrastrukturprojekten, etwa der Erneuerung von Brückenbauwerken an der B26, liefert die Kombination aus Seismik und <a href="/flachdilatometer-versuch/">Flachdilatometer-Versuch (DMT)</a> eine detaillierte Spannungs-Verformungs-Charakteristik der anstehenden sandigen Kiese. Die seismischen Profile werden zudem genutzt, um die Homogenität von Verfüllungen ehemaliger Kiesgruben zu prüfen und potenzielle Schwächezonen zu identifizieren, die im Zuge der Bebauungsplanung eine tiefere Gründung mit Pfählen erfordern könnten.</p>
+<img src="/img/aislacion-sismica-1.webp" alt="Seismik in Aschaffenburg" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+
+<p>Der standardisierte Prozess beginnt mit der Einmessung des seismischen Arrays und der Registrierung der Umgebungsun</p></div></section></main>
     </div>
 </div>
 
