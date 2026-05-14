@@ -175,6 +175,48 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#8B0000) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+body{overflow-x:clip;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
+<style id="navbar-fixed-override">
+nav.navbar,.header-top,.main-header{position:fixed !important;top:0 !important;left:0 !important;right:0 !important;z-index:1010 !important}
+body{padding-top:60px}
+.hero,.hero-inner,header.hero{padding-top:1rem !important}
+@media (max-width:900px){body{padding-top:90px}}
+</style>
 </head>
 <body>
 
@@ -245,7 +287,7 @@ header.hero, .hero { position: relative !important; }
 
             <section>
                 <h2>FAQ</h2>
-                <details><summary>Welche typischen Baugrundprobleme treten in Aschaffenburg auf?</summary><p>In Aschaffenburg sind vor allem die wechselnden Bodenschichten aus Kiesen, Tonen und Mergeln zu beachten. In den Tallagen kann hoher Grundwasserstand zu Auftriebsproblemen bei Kellern und Tiefgaragen führen. In Hanglagen sind tonige Böden bei Nässe quellfähig, was zu Setzungsschäden führen kann. Daher empfehlen wir stets eine orientierende Baugrunduntersuchung vor Baubeginn.</p></details><details><summary>Wie läuft eine typische Baugrunduntersuchung in Aschaffenburg ab?</summary><p>Wir beginnen mit einer Sichtung vorhandener geologischer Karten und Altlastenkataster. Vor Ort führen wir Rammkernsondierungen und ggf. Drucksondierungen (CPT) bis in die tragfähigen Schichten durch. Die entnommenen Proben werden in unserem Labor auf Korngrößenverteilung, Wassergehalt und Scherfestigkeit geprüft. Anschließend erstellen wir ein Schichtenprofil und geben Gründungsempfehlungen.</p></details><details><summary>Welche Normen sind für die Gründungsbemessung in Deutschland verbindlich?</summary><p>Die Gründungsbemessung erfolgt gemäß DIN EN 1997-1 (Eurocode 7) mit dem nationalen Anhang DIN EN 1997-1/NA. Ergänzend sind die DIN 1054 für Standsicherheitsnachweise und die DIN 4017 für den Grundbruchwiderstand zu beachten. Für die Erkundung gilt die DIN 4020. Bei Straßenbauprojekten kommen zusätzlich die ZTV E-StB und die RStO zur Anwendung.</p></details><details><summary>Können Sie auch bei der Sanierung von Altlasten in Aschaffenburg helfen?</summary><p>Ja, wir verfügen über Erfahrung mit der Erkundung und Bewertung von Altlasten, insbesondere auf ehemaligen Industrieflächen entlang des Mains. Wir führen orientierende Untersuchungen gemäß BBodSchG durch, erstellen Gefährdungsabschätzungen und begleiten Sanierungsmaßnahmen. Dabei stimmen wir uns eng mit dem Wasserwirtschaftsamt Aschaffenburg ab.</p></details>
+                <details><summary>Welche typischen Baugrundprobleme treten in Aschaffenburg auf?</summary><p>In Aschaffenburg sind vor allem die wechselnden Bodenschichten aus Kiesen, Tonen und Mergeln zu beachten. In den Tallagen kann hoher Grundwasserstand zu Auftriebsproblemen bei Kellern und Tiefgaragen führen. In Hanglagen sind tonige Böden bei Nässe quellfähig, was zu Setzungsschäden führen kann. Daher empfehlen wir stets eine orientierende Baugrunduntersuchung vor Baubeginn.</p></details><details><summary>Wie läuft eine typische Baugrunduntersuchung in Aschaffenburg ab?</summary><p>Wir beginnen mit einer Sichtung vorhandener geologischer Karten und Altlastenkataster. Vor Ort führen wir Rammkernsondierungen und ggf. Drucksondierungen (CPT) bis in die tragfähigen Schichten durch. Die entnommenen Proben werden in unserem Labor auf Korngrößenverteilung, Wassergehalt und Scherfestigkeit geprüft. Anschließend erstellen wir ein Schichtenprofil und geben Gründungsempfehlungen.</p></details><details><summary>Welche Normen sind für die Gründungsbemessung in Deutschland verbindlich?</summary><p>Die Gründungsbemessung erfolgt gemäß DIN EN 1997-1 (Eurocode 7) mit dem nationalen Anhang DIN EN 1997-1/NA. Ergänzend sind die DIN 1054 für Standsicherheitsnachweise und die DIN 4017 für den Grundbruchwiderstand zu beachten. Für die <a href="/erkundung/">Erkundung</a> gilt die DIN 4020. Bei Straßenbauprojekten kommen zusätzlich die ZTV E-StB und die RStO zur Anwendung.</p></details><details><summary>Können Sie auch bei der Sanierung von Altlasten in Aschaffenburg helfen?</summary><p>Ja, wir verfügen über Erfahrung mit der Erkundung und Bewertung von Altlasten, insbesondere auf ehemaligen Industrieflächen entlang des Mains. Wir führen orientierende Untersuchungen gemäß BBodSchG durch, erstellen Gefährdungsabschätzungen und begleiten Sanierungsmaßnahmen. Dabei stimmen wir uns eng mit dem Wasserwirtschaftsamt Aschaffenburg ab.</p></details>
             </section>
 
             <section>

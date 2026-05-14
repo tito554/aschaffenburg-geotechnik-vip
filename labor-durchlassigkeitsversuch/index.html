@@ -175,6 +175,48 @@ header.hero, .hero { position: relative !important; }
 .leaflet-control { z-index: 800 !important; }
 .leaflet-container { z-index: 1 !important; }
 </style>
+<style id="inline-link-style">
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#8B0000) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+</style>
+<style id="navbar-compact-fix">
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.logo-text .main{font-size:.95rem !important}
+.logo-text .sub{font-size:.72rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}
+@media (max-width:1100px){
+  .nav-item{font-size:.7rem !important}
+  .navbar .nav{gap:.4rem !important}
+  .cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+</style>
+<style id="layout-defensive">
+body{overflow-x:clip;max-width:100vw}
+body>*{max-width:100vw}
+@media (min-width:901px){
+  aside{position:relative}
+  aside+main,aside~main,aside~div>main{margin-left:0}
+  .content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+  aside{width:100% !important;position:static !important;height:auto !important}
+  .navbar{flex-wrap:wrap}
+}
+</style>
+<style id="navbar-fixed-override">
+nav.navbar,.header-top,.main-header{position:fixed !important;top:0 !important;left:0 !important;right:0 !important;z-index:1010 !important}
+body{padding-top:60px}
+.hero,.hero-inner,header.hero{padding-top:1rem !important}
+@media (max-width:900px){body{padding-top:90px}}
+</style>
 </head>
 <body>
 
@@ -244,7 +286,9 @@ header.hero, .hero { position: relative !important; }
             </section>
 
             <section>
-                <section class="block video-block" style="padding:2rem 1.5rem"><div style="max-width:720px;margin:0 auto"><h2 style="margin-bottom:1rem;font-weight:700;font-size:1.4rem">Erläuterungsvideo</h2><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px"><iframe src="https://www.youtube.com/embed/2d5h5r60l0M" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" loading="lazy" allowfullscreen></iframe></div></div></section>
+                <section class="block video-block" style="padding:2rem 1.5rem"><div style="max-width:720px;margin:0 auto"><h2 style="margin-bottom:1rem;font-weight:700;font-size:1.4rem">Erläuterungsvideo</h2><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px"><iframe src="https://www.youtube.com/embed/2d5h5r60l0M" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" loading="lazy" allowfullscreen></iframe></div></div>
+      <p style="margin-top:1rem">Diese Leistung ergänzt unsere <a href="/labor/">Laborversuche</a> für eine umfassende Projektanalyse.</p>
+    </section>
 <h2>FAQ</h2>
                 <details><summary>Welche Kosten sind für einen Labor-Durchlässigkeitsversuch in Aschaffenburg üblich?</summary><p>Der Preis liegt je nach Probenanzahl und Verfahren zwischen 360 und 650 Euro pro Versuch. Bei mehreren Proben aus einem Bauvorhaben gewähren wir einen Rabatt. Die genaue Kalkulation hängt von der Bodenart und der gewünschten Druckstufe ab.</p></details><details><summary>Wie lange dauert der Versuch bis zum Ergebnis?</summary><p>Rechnen Sie mit 2 bis 5 Arbeitstagen. Die Sättigung der Probe nimmt bei Tonen die meiste Zeit in Anspruch. Bei Sanden sind wir oft schon nach 2 Tagen fertig. Wir informieren Sie, sobald der kf-Wert vorliegt.</p></details><details><summary>Muss ich ungestörte Proben selbst entnehmen oder machen Sie das?</summary><p>In der Regel entnehmen wir die Stechzylinderproben direkt auf der Baustelle. Wir koordinieren den Termin mit Ihrem Bauablauf. Falls Sie bereits Proben haben, können Sie diese im Labor abgeben – wichtig ist die luftdichte Verpackung.</p></details><details><summary>Unterscheidet sich der kf-Wert im Labor vom Feldversuch?</summary><p>Ja, das ist oft der Fall. Im Labor messen Sie den vertikalen Durchlässigkeitsbeiwert unter definierten Randbedingungen. Der Feldversuch erfasst den horizontalen Abfluss im ungestörten Boden. Beide Werte ergänzen sich. Wir empfehlen, den Laborversuch mit einem Feldversuch zu kombinieren.</p></details>
             </section>
